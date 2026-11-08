@@ -1,0 +1,26 @@
+{
+  "format": "recall.deck",
+  "version": 1,
+  "deck": {
+    "name": "World capitals",
+    "description": "Countries and their capital cities.",
+    "colorValue": 4287127552,
+    "iconKey": "public"
+  },
+  "cards": [
+    {"front": "Capital of Australia", "back": "**Canberra**, not Sydney."},
+    {"front": "Capital of Canada", "back": "**Ottawa**"},
+    {"front": "Capital of Brazil", "back": "**Brasília**"},
+    {"front": "Capital of Turkey", "back": "**Ankara**, not Istanbul."},
+    {"front": "Capital of Egypt", "back": "**Cairo**"},
+    {"front": "Capital of Japan", "back": "**Tokyo**"},
+    {"front": "Capital of Kenya", "back": "**Nairobi**"},
+    {"front": "Capital of Argentina", "back": "**Buenos Aires**"},
+    {"front": "Capital of Norway", "back": "**Oslo**"},
+    {"front": "Capital of Morocco", "back": "**Rabat**"},
+    {"front": "Capital of Vietnam", "back": "**Hanoi**"},
+    {"front": "Capital of New Zealand", "back": "**Wellington**"},
+    {"front": "Capital of Saudi Arabia", "back": "**Riyadh**"},
+    {"front": "Capital of Switzerland", "back": "**Bern**"}
+  ]
+}

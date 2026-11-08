@@ -1,0 +1,24 @@
+{
+  "format": "recall.deck",
+  "version": 1,
+  "deck": {
+    "name": "Flutter widgets",
+    "description": "The building blocks you reach for every day.",
+    "colorValue": 4280250204,
+    "iconKey": "code"
+  },
+  "cards": [
+    {"front": "What does `StatelessWidget` promise?", "back": "Its configuration is **immutable**. It only changes when the parent rebuilds it with new arguments."},
+    {"front": "When should you reach for `StatefulWidget`?", "back": "When the widget owns **mutable state** that changes over its lifetime, such as an animation controller or a text field."},
+    {"front": "What is `BuildContext`?", "back": "A handle to a widget's location in the *element tree*. Used to look up ancestors like `Theme.of(context)`."},
+    {"front": "`Expanded` vs `Flexible`", "back": "`Expanded` forces the child to fill the free space. `Flexible` lets it be *up to* that size (`fit: FlexFit.loose`)."},
+    {"front": "Why use `const` constructors?", "back": "Identical const widgets are **canonicalized**, so Flutter can skip rebuilding that subtree."},
+    {"front": "What does `ListView.builder` do differently from `ListView`?", "back": "It builds children **lazily**, only those near the viewport. Use it for long or unbounded lists."},
+    {"front": "Purpose of a `Key`?", "back": "Preserves the identity of an element when widgets move within the same parent. Needed for reorderable lists."},
+    {"front": "What does `LayoutBuilder` give you?", "back": "The parent's **constraints**, so you can choose a layout based on available space instead of screen size."},
+    {"front": "How do you stop work in `dispose()`?", "back": "Cancel timers and subscriptions, and call `dispose()` on controllers such as `AnimationController`."},
+    {"front": "What is `RepaintBoundary` for?", "back": "It gives a subtree its own **layer**, so a frequently repainting child doesn't force its siblings to repaint."},
+    {"front": "`Stack` and `Positioned`", "back": "`Stack` layers children. `Positioned` pins a child to edges of the stack using `top`, `left`, `right`, `bottom`."},
+    {"front": "What does `CustomPainter.shouldRepaint` decide?", "back": "Whether the canvas must be redrawn when the painter is replaced. Compare the **data**, not identity, to avoid needless paints."}
+  ]
+}

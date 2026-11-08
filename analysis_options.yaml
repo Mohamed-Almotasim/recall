@@ -1,0 +1,21 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  exclude:
+    - build/**
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    - lib/l10n/gen/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    avoid_dynamic_calls: false
+    # New-style `new(...)` constructors are not supported by the code generators yet.
+    unnecessary_type_name_in_constructor: false
+    avoid_equals_and_hash_code_on_mutable_classes: false

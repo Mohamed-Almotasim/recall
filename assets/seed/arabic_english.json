@@ -1,0 +1,28 @@
+﻿{
+  "format": "recall.deck",
+  "version": 1,
+  "deck": {
+    "name": "Arabic–English vocabulary",
+    "description": "Everyday words, both directions.",
+    "colorValue": 4282210944,
+    "iconKey": "translate"
+  },
+  "cards": [
+    {"front": "كتاب", "back": "book"},
+    {"front": "مدرسة", "back": "school"},
+    {"front": "ماء", "back": "water"},
+    {"front": "صديق", "back": "friend"},
+    {"front": "بيت", "back": "house, home"},
+    {"front": "شكرًا", "back": "thank you"},
+    {"front": "How do you say “good morning”?", "back": "صباح الخير"},
+    {"front": "How do you say “welcome”?", "back": "أهلاً وسهلاً"},
+    {"front": "طعام", "back": "food"},
+    {"front": "سيارة", "back": "car"},
+    {"front": "The word for “city”", "back": "مدينة"},
+    {"front": "The word for “time”", "back": "وقت"},
+    {"front": "جميل", "back": "beautiful"},
+    {"front": "The word for “market”", "back": "سوق"},
+    {"front": "The word for “language”", "back": "لغة"},
+    {"front": "سفر", "back": "travel, journey"}
+  ]
+}
